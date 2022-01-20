@@ -13,5 +13,6 @@ showBtn.addEventListener('click', () => {
     let date = new Date(dateInput.value);
     date.setDate(date.getDate() + 273);
     result.textContent = date.toDateString() + ' முதல் நீங்கள் பூஸ்டர் தடுப்பூசி போட்டு கொள்ளலாம்';
+    result.style.backgroundColor = 'rgb(233, 233, 233)';
 });
 
